@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+      <form action="/api/authcode" method="POST">
+        <img src="data:image/png;base64,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">
+        <h1>
+            <label for="auth-app-code">
+              Auth App Code
+            </label>
+        </h1>
+        <input id="auth-app-code" type="text" name="authappcode">
+        <input id="auth-app-code-submit" type="button">Submit</input>
+        <!-- </input type="submit" value="Submit"> -->
+      </form>
+    <!-- <script>
+    const authAppCodeForm = document.getElementById("auth-app-code-form");
+
+    authAppCodeForm.addEventListener("submit", () => {
+          
+    const authAppCode = document.getElementById("auth-app-code").value;
+    authAppCodeForm.submit();
+
+  });
+  </script> -->
+  </body>
+</html>
