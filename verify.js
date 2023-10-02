@@ -1,9 +1,9 @@
-const speakeasy = require('speakeasy')
+const speakeasy = require("speakeasy");
 
 var verified = speakeasy.totp.verify({
-    secret: 'J5m@!G9fa&>.^6AiMah7v@?Ifvx(qPc(', // secret.ascii 
+    secret: '>$f4q:p%,#A>fNOH3AA4X4gZU&R#zsbr', // secret.ascii 
     encoding: 'ascii',
-    token: '971949' // the code you see in your auth app after scanning the Qrcode
+    token: '197523' // the code you see in your auth app after scanning the Qrcode
 })
 
 console.log(verified)
